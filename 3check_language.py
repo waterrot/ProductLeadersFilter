@@ -5,7 +5,7 @@ from openai import OpenAI
 api_key = OpenAI(api_key="")
 
 # De datafile
-file_path = 'leads_without_trash.xlsx'
+file_path = '8leads_without_trash.xlsx'
 
 
 class SortNames:
@@ -44,12 +44,12 @@ class SortNames:
     def process_excel(self):
         # Lees het Excel-bestand
         df = pd.read_excel(self.file_path)
-
+        
         # Voeg een nieuwe kolom toe
         df['Nederlandse Naam'] = df['Naam'].apply(lambda x: self.is_nederlandse_naam(x))
 
         # Schrijf het resultaat terug naar het Excel-bestand
-        df.to_excel("result.xlsx", index=False)
+        df.to_excel("9leadlist_with_language_column.xlsx", index=False)
 
 # Create an instance of the NameProcessor class
 name_processor = SortNames(api_key, file_path)

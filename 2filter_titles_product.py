@@ -34,9 +34,9 @@ to_check = ["chemicals", "product owner", "project risk", "Assistant", \
     "N/A"]
 
 # Define the output file names
-input_file = "trash_leads_no_duplicates.xlsx"
-trash_file = "trash.xlsx"
-results_file = "leads_without_trash.xlsx"
+input_file = "6trash_leads_no_duplicates.xlsx"
+trash_file = "7trash.xlsx"
+results_file = "8leads_without_trash.xlsx"
 
 # Call the filtering function
 filter_job_titles(input_file, trash_file, results_file, to_check)
