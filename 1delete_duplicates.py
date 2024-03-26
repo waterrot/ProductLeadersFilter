@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the Excel file into a DataFrame
-file_path = '5input_product_leader.xlsx'
+file_path = 'input.xlsx'
 df = pd.read_excel(file_path)
 
 # Remove duplicate rows based on 'naam' and 'company' columns

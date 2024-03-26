@@ -30,8 +30,11 @@ to_check = ["chemicals", "product owner", "project risk", "Assistant", \
     "head of finance", "product cyber security", "product policy", "head of innovation", \
     "head of media product", "product introduction", "head of people", "Pedagogisch", \
     "Administrateur", "logistics", "Chief Privacy Officer", "Chief Procurement Officer", \
-    "Supply chain", "Coördinerend Privacy Officer", "Procurement", "Domeinmanager", "Dep. PO Sensors" \
-    "N/A"]
+    "Supply chain", "Coördinerend Privacy Officer", "Procurement", "Domeinmanager", "Dep. PO Sensors", \
+    "N/A", "Interior", "Merchandising", "Head of Product Design", "Head of Design & Product development", \
+    "Head of design", "Head of Air Product", "Head of Buying and Product Development", "Head of Consumer", \
+    "Head of Commercial", "Head of Design", "Head of Food Product", "Head of Governance", "HR", \
+    "Head of New Product Development", "Head of Product and Customer Experience", ]
 
 # Define the output file names
 input_file = "6trash_leads_no_duplicates.xlsx"
